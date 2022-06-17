@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/back.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 100%;
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    counter-reset: #fff;
+}
+.content h1{
+    color: white;
+    font-size: 50px;
+
+}
+.content p{
+    color: white;
+    font-size: 20px;
+}
+.content button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: white;
+}
+.content a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+.content a:hover{
+	cursor:pointer;
+    color: black;
+    text-decoration: none;
+}
+.content button:hover{
+    cursor: pointer;
+    background-color:aqua;
+
+}
+/*.content a:hover{
+    cursor: pointer;
+    color: black;
+}*/

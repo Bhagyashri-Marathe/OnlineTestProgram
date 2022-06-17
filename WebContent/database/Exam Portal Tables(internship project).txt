@@ -1,0 +1,65 @@
+create table exam_student
+(
+	regid number primary key,
+	name varchar2(30)  not null,
+	email varchar2(30) not null,
+	password varchar2(20) not null,
+	phone varchar2(20) not null,
+	dob varchar2(50) not null,
+	course varchar2(30) not null
+);
+
+create table exam_schedule
+(
+	examid number primary key,
+	course varchar2(30) 	not null,
+	startdate date not null,
+	starttime varchar2(30) not null,
+	enddate date not null,
+	endtime varchar2(30) not null
+);
+
+create table java
+(
+	question_id number(10) primary key,
+	question_text varchar2(4000),
+	option1 varchar2(200),
+	option2 varchar2(200),
+	option3 varchar2(200),
+	option4 varchar2(200),
+	correct_option number(5)
+);
+
+create table web_developement
+(
+	question_id number(10) primary key,
+	question_text varchar2(4000),
+	option1 varchar2(200),
+	option2 varchar2(200),
+	option3 varchar2(200),
+	option4 varchar2(200),
+	correct_option number(5)
+);
+
+create table database
+(
+	question_id number(10) primary key,
+	question_text varchar2(4000),
+	option1 varchar2(200),
+	option2 varchar2(200),
+	option3 varchar2(200),
+	option4 varchar2(200),
+	correct_option number(5)
+);
+
+create table exam_result
+(
+	userId number(30) references exam_student(regId),
+	username varchar2(30),
+	examId number(30) references exam_schedule(examId),
+	course varchar2(30),
+	correct number(30),
+	incorrect number(30),
+	tquestion number(30)
+);
+	

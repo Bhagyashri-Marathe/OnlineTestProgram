@@ -1,0 +1,235 @@
+@charset "ISO-8859-1";
+body{
+    overflow-x: hidden;
+}
+
+/* camera css */
+#container{
+    margin: 0;
+    /* width: 500px;
+    height: 375px; */
+    float: right;
+    margin: 0;
+   padding-right: 0;
+   
+}
+#video{
+    margin: 0px;
+    padding-right: 0;
+}
+
+
+/* timer css */
+#time{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 40px;
+    color: white;
+}
+b{
+    color: white;
+ font-size: large;
+ margin-left: 20px;
+ }
+/* main question box */
+.mainbox{
+    float: left;
+    border-style: solid;
+    width: 1157px;
+    height: 500px;
+   border-top:hidden ;
+    border-left: hidden;
+   border-bottom: hidden;
+    margin: 0;
+}
+/* questions */
+.qnumber{
+    font-size: 1.5rem;
+    margin: 20px;
+}
+span{
+    float: left;
+}
+.grid{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+/* options css */
+.options{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+/* QUESTION BOX CSS */
+.quebox{
+    height: 301px;
+    width: 465px;
+    background-color: rgb(209, 235, 235);
+    /* border-radius: 10px; */
+    margin-top:0px ;
+    padding-top: 0;
+    margin-left: 1153px;
+    padding-left: 0;
+    margin-right: 0;
+}
+.btn-line {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.button-line{
+    margin-bottom: 15px;
+    margin-top: 35px;
+}
+.btn-quebox{
+   margin: 2px;
+}
+.quebox > div:nth-child(1) {
+    margin-top: -5px;
+    border-top-width: 0px;
+    border-top-style: solid;
+    padding-top: -12px;
+   }
+
+.quebox-buttons{
+    -webkit-box-sizing: border-box;
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Courier New;
+    color: #000000;
+    font-size: 14px;
+    background: #ffffff;
+    padding: 13px 17px 15px 18px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    position: relative;
+  box-sizing: initial;
+
+}
+.but1{
+
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Courier New;
+    color: #000000;
+    font-size: 14px;
+    background: #ffffff;
+    padding: 13px 17px 15px 18px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    position: relative;
+  
+
+}
+.but2{
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Courier New;
+    color: #000000;
+    font-size: 14px;
+    background: #ffffff;
+    padding: 13.5px 14px 15px 14.5px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    position: relative;
+    margin-top: -25px;
+  
+
+}
+div.row:nth-child(7) {    /* 2 digits number line margins */
+    margin-top: -14px;
+   }
+   div.row:nth-child(8) {    /* 2 digits number line margins */
+    margin-top: -14px;
+   }
+a{
+   width: 14px;
+}
+.quebox-buttons:hover{
+    background: #08b0d1;
+    text-decoration: none;
+}
+/* Next Previous Button */
+.next-prev{
+    margin-top: -95px;
+    margin-left: -124px;
+    border-style: solid;
+    width: 1281px;
+    height: 100px;
+    background-color:rgb(209, 235, 235) ;
+}
+ .next-prev-button{
+    -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 10px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 14px;
+  background: #0091ff;
+  padding: 13px 17px 15px 18px;
+  border: solid #000000 2px;
+  text-decoration: none;
+  margin-left: 150px;
+  margin-top: 20px;
+} 
+.end-exam{
+    background: #f5131b;
+    background-image: -webkit-linear-gradient(top, #f5131b, #f71b1b);
+    background-image: -moz-linear-gradient(top, #f5131b, #f71b1b);
+    background-image: -ms-linear-gradient(top, #f5131b, #f71b1b);
+    background-image: -o-linear-gradient(top, #f5131b, #f71b1b);
+    background-image: linear-gradient(to bottom, #f5131b, #f71b1b);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 14px;
+    padding: 13px 17px 15px 18px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 340px;
+}
+.end-exam:hover{
+    background: #c40000;
+    text-decoration: none;
+}
+
+/* proctored hover */
+
+  @keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+     -webkit-animation: flickerAnimation 1s infinite;
+     -moz-animation: flickerAnimation 1s infinite;
+     -o-animation: flickerAnimation 1s infinite;
+      animation: flickerAnimation 1s infinite;
+      color: red;
+      padding-top: 10px;
+      text-transform:uppercase;
+      font-size: 30px;
+      text-align: center;
+      
+      
+  }

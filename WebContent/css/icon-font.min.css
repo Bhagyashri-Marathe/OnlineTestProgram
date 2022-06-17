@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+@font-face{
+    font-family:Linearicons-Free;
+    src:url(https://cdn.linearicons.com/free/1.0.0/Linearicons-Free.eot);
+    src:url(https://cdn.linearicons.com/free/1.0.0/Linearicons-Free.eot?#iefix) format('embedded-opentype'),url(https://cdn.linearicons.com/free/1.0.0/Linearicons-Free.woff2) format('woff2'),url(https://cdn.linearicons.com/free/1.0.0/Linearicons-Free.ttf) format('truetype'),url(https://cdn.linearicons.com/free/1.0.0/Linearicons-Free.woff) format('woff'),url(https://cdn.linearicons.com/free/1.0.0/Linearicons-Free.svg#Linearicons-Free) format('svg');
+    font-weight:400;
+    font-style:normal
+}
+.lnr{
+    font-family:Linearicons-Free;
+    speak:none;
+    font-style:normal;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    line-height:1;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale
+}
+
+.lnr-star-empty:before{
+    content:"\e816"
+}
+.lnr-flag:before{
+    content:"\e817"
+}
+.lnr-envelope:before{
+    content:"\e818"
+}
+.lnr-graduation-hat:before{
+    content:"\e821"
+}
+.lnr-license:before{
+    content:"\e822"
+}
+.lnr-music-note:before{
+    content:"\e823"
+}
+.lnr-film-play:before{
+    content:"\e824"
+}
+.lnr-camera-video:before{
+    content:"\e825"
+}
+.lnr-camera:before{
+    content:"\e826"
+}
+.lnr-picture:before{
+    content:"\e827"
+}
+.lnr-book:before{
+    content:"\e828"
+}
+.lnr-bookmark:before{
+    content:"\e829"
+}
+.lnr-user:before{
+    content:"\e82a"
+}
+.lnr-users:before{
+    content:"\e82b"
+}
+.lnr-shirt:before{
+    content:"\e82c"
+}
+.lnr-store:before{
+    content:"\e82d"
+}
+.lnr-cart:before{
+    content:"\e82e"
+}
+.lnr-tag:before{
+    content:"\e82f"
+}
+.lnr-phone-handset:before{
+    content:"\e830"
+}
+.lnr-phone:before{
+    content:"\e831"
+}
+.lnr-pushpin:before{
+    content:"\e832"
+}
+.lnr-map-marker:before{
+    content:"\e833"
+}
+.lnr-map:before{
+    content:"\e834"
+}
+.lnr-location:before{
+    content:"\e835"
+}

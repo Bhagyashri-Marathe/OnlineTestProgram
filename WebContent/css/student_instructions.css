@@ -1,0 +1,77 @@
+@charset "ISO-8859-1";
+.tacbox {
+    display:block;
+    padding: 1em;
+    margin: 2em;
+    border: 3px solid #ddd;
+    background-color: #eee;
+    max-width: 800px;
+    margin-left: 260px;
+    font-size: 140%;
+
+  }
+  
+  input {
+    height: 2em;
+    width: 2em;
+    vertical-align: middle;
+  }
+h2{
+  font-size: 2rem;
+}
+label{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+/* 
+  BUTTON CSS */
+  .btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 17px;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border: solid #000000 2px;
+    text-decoration: none;
+    margin-left: 600px;
+    margin-bottom:50px ;
+  }
+  
+  .btn:hover {
+    background: #009dff;
+    text-decoration: none;
+  }
+
+
+  @media screen and (min-width: 768px)
+{
+    .terms
+{
+    padding-left: 250px;
+    padding-top: 100px;
+}
+}
+@media screen and (max-width: 768px){
+.tacbox{
+  margin-top: 80px;
+  margin-left: 100px
+}
+.btn{
+  margin-left: 100px;
+    margin-bottom:20px ;
+}
+.terms
+{
+    padding-left: 100px;
+    padding-top: 100px;
+}
+}
+
+p
+{
+    font-size: 200%;
+}
